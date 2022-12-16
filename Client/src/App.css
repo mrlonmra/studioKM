@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app--container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.register--container {
+  padding: 50px 50px;
+  width: max-content;
+  height: max-content;
+  margin-top: 20px;
+  border: 3px solid rgb(202, 26, 26);
+  border-radius: 30px;
+}
+
+.register--title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: fantasy;
+}
+
+.register--input {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: block;
+  margin: 10px auto;
+  padding: 6px 0;
+}
+
+.register--button {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 8px 5px;
+}
